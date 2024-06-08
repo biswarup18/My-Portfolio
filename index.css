@@ -90,6 +90,12 @@ p, li {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.allCards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 #education .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
